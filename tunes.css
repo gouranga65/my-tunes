@@ -1,0 +1,129 @@
+/* dry = do not repet your code */
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#footer h6{
+    padding-top: 10px;
+}
+#footer{
+    background-color: #484848;
+    color: aliceblue;
+    height: 50px;
+}
+#flex2{
+    display: flex;
+    justify-content: flex-start;
+    gap: 110px;
+}
+.items h2{
+    padding-left: 40px;
+}
+.items{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.items01{
+    width: 250px;
+    position: absolute;
+}
+hr{
+    width: 370px;
+    position: absolute;
+
+}
+#reddem h2{
+    color: 	#808080;
+}
+#reddem{
+    font-size: 10px;
+}
+#star h6{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+span a{
+    color: aliceblue;
+}
+#button{
+    height: 49px;
+}
+.button2:hover{
+    background-color: #BA0021;
+}
+.button2{
+    width: 160px;
+    height: 40px;
+    background-color: blue;
+    font-size: 20px;
+    position: relative;
+    left: 550px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+#white h2{
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 29px;
+}
+#second{
+    height: 800px;
+    background-color: #484848;
+    color: aliceblue;
+}
+#text4{
+    padding-top: 25px;
+    font-size: 16px;
+}
+#text2{
+    padding-top: 40px;
+}
+#text3{
+    padding-top: 35px;
+    font-size: 20px;
+    line-height: 26px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+#logo{
+    padding-top: 20px;
+}
+#img1 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+.header a:hover{
+    background-color: #34a0c4;
+    /* height: 170px;
+    not working */
+    border-radius: 5px;
+}
+.header a{
+    padding-right: 25px;
+    padding-left: 15px;
+    color: aliceblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ,     serif;
+    font-size:20px;
+}
+#pannel{
+    width: 100%;
+    height: 30px;
+    background-color: #353839;
+    padding-top: 4px;
+}
+.musictext{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.flex_side{
+    font-size: 16px;
+    text-align: left;
+}

@@ -6,6 +6,15 @@ body{
     margin: 0;
     padding: 0;
 }
+#img1{
+    background-image: url(./5-57072_guitar-photography-black-and-white.jpg);
+    /* height: 400px;
+    width: 500px; */
+    color: aliceblue;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 600px;
+}
 #footer h6{
     padding-top: 10px;
 }

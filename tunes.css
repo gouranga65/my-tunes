@@ -6,15 +6,6 @@ body{
     margin: 0;
     padding: 0;
 }
-#img1{
-    background-image: url(./5-57072_guitar-photography-black-and-white.jpg);
-    /* height: 400px;
-    width: 500px; */
-    color: aliceblue;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    height: 600px;
-}
 #footer h6{
     padding-top: 10px;
 }
@@ -23,10 +14,16 @@ body{
     color: aliceblue;
     height: 50px;
 }
+#flex{
+    display: flex;
+    justify-content: center;
+}
 #flex2{
     display: flex;
     justify-content: flex-start;
     gap: 110px;
+    color: aliceblue;
+    background-color: #484848;
 }
 .items h2{
     padding-left: 40px;
@@ -58,21 +55,26 @@ hr{
 span a{
     color: aliceblue;
 }
+#button2{
+    background-color: #002D62;
+}
+#button2:hover{
+    background-color: #00308F;
+}
 #button{
     height: 49px;
 }
-.button2:hover{
-    background-color: #BA0021;
-}
-.button2{
+input[type=button]{
     width: 160px;
     height: 40px;
-    background-color: blue;
-    font-size: 20px;
-    position: relative;
-    left: 550px;
-    padding-top: 10px;
-    border-radius: 5px;
+    cursor: pointer;
+    background-color: #BA0021;
+    border: none;
+    border-radius: 2px;
+    color: antiquewhite;
+}
+input[type=button]:hover{
+    background-color: rgb(255,36,0);
 }
 #white h2{
     font-size: 18px;
@@ -81,13 +83,16 @@ span a{
     line-height: 29px;
 }
 #second{
-    height: 800px;
+    height: 1200px;
     background-color: #484848;
     color: aliceblue;
 }
 #text4{
     padding-top: 25px;
     font-size: 16px;
+}
+#text4 img{
+    padding-top: 20px;
 }
 #text2{
     padding-top: 40px;
@@ -103,18 +108,48 @@ span a{
 #logo{
     padding-top: 20px;
 }
+#img3 img{
+    padding-left: 39px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
 #img1 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 50px;
+    padding-top: 40px;
 }
-.header a:hover{
-    background-color: #34a0c4;
-    /* height: 170px;
-    not working */
-    border-radius: 5px;
+#star h3{
+    padding-top: 140px;
+    color: aliceblue;
 }
-.header a{
+#star h2{
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 30px;
+}
+#img4 img{
+    width: 600px;
+    height: 400px;
+}
+#star{
+    background-image: url(./billy-huynh-W8KTS-mhFUE-unsplash.jpg);
+    height: 500px;
+    object-fit: fill;
+}
+#img1 h2{
+    padding-top: 20px;
+}
+#img1{
+    background-image: url(./5-57072_guitar-photography-black-and-white.jpg);
+    color: aliceblue;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 600px;
+}
+.heade a{
     padding-right: 25px;
     padding-left: 15px;
     color: aliceblue;
@@ -123,9 +158,12 @@ span a{
 }
 #pannel{
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: #353839;
     padding-top: 4px;
+}
+.musictext h6{
+    padding-right: 10px;
 }
 .musictext{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

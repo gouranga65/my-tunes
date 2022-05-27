@@ -1,176 +1,194 @@
 /* dry = do not repet your code */
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
-#footer h6{
-    padding-top: 10px;
+#footer h6 {
+  font-size: 17px;
+  letter-spacing: 1px;
 }
-#footer{
-    background-color: #484848;
-    color: aliceblue;
-    height: 50px;
+#rightes {
+  position: relative;
+  left: 42%;
+  top: 16px;
 }
-#flex{
-    display: flex;
-    justify-content: center;
+#footer {
+  background-color: #333;
+  color: aliceblue;
+  height: 50px;
 }
-#flex2{
-    display: flex;
-    justify-content: flex-start;
-    gap: 110px;
-    color: aliceblue;
-    background-color: #484848;
+#flex {
+  display: flex;
+  justify-content: center;
 }
-.items h2{
-    padding-left: 40px;
+#flex2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 110px;
+  color: aliceblue;
+  background-color: #252529;
+  height: 250px;
+  position: relative;
+  top: 40px;
 }
-.items{
-    font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.items h2 {
+  padding-left: 40px;
 }
-.items01{
-    width: 250px;
-    position: absolute;
+.items {
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-hr{
-    width: 370px;
-    position: absolute;
-
+.items01 {
+  width: 250px;
+  position: absolute;
 }
-#reddem h2{
-    color: 	#808080;
+hr {
+  width: 370px;
+  position: absolute;
+  border-radius: 5px;
+  border: 2px solid whitesmoke;
 }
-#reddem{
-    font-size: 10px;
+#reddem h2 {
+  color: #808080;
 }
-#star h6{
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 30px;
+#reddem {
+  font-size: 10px;
 }
-span a{
-    color: aliceblue;
+#star h6 {
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 30px;
 }
-#button2{
-    background-color: #002D62;
+span a {
+  color: aliceblue;
 }
-#button2:hover{
-    background-color: #00308F;
+#button2 {
+  background-color: #002d62;
 }
-#button{
-    height: 49px;
+#button2:hover {
+  background-color: #00308f;
 }
-input[type=button]{
-    width: 160px;
-    height: 40px;
-    cursor: pointer;
-    background-color: #BA0021;
-    border: none;
-    border-radius: 2px;
-    color: antiquewhite;
+#button {
+  height: 49px;
 }
-input[type=button]:hover{
-    background-color: rgb(255,36,0);
+input[type="button"] {
+  width: 160px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #ba0021;
+  border: none;
+  border-radius: 2px;
+  color: antiquewhite;
 }
-#white h2{
-    font-size: 18px;
-    padding-left: 40px;
-    padding-right: 40px;
-    line-height: 29px;
+input[type="button"]:hover {
+  background-color: rgb(255, 36, 0);
 }
-#second{
-    height: 1200px;
-    background-color: #484848;
-    color: aliceblue;
+#white h2 {
+  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 29px;
 }
-#text4{
-    padding-top: 25px;
-    font-size: 16px;
+#second {
+  height: 1200px;
+  background-color: #484848;
+  color: aliceblue;
+  position: relative;
+  bottom: 34px;
 }
-#text4 img{
-    padding-top: 20px;
+#text4 {
+  padding-top: 25px;
+  font-size: 16px;
 }
-#text2{
-    padding-top: 40px;
+#text4 img {
+  padding-top: 20px;
 }
-#text3{
-    padding-top: 35px;
-    font-size: 20px;
-    line-height: 26px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 20px;
+#text2 {
+  padding-top: 40px;
 }
-#logo{
-    padding-top: 20px;
+#text3 {
+  padding-top: 35px;
+  font-size: 20px;
+  line-height: 26px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
 }
-#img3 img{
-    padding-left: 39px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+#logo {
+  padding-top: 20px;
 }
-#img1 h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    font-size: 50px;
-    padding-top: 40px;
+#img3 img {
+  padding-left: 39px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
-#star h3{
-    padding-top: 140px;
-    color: aliceblue;
+#img1 h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 40px;
 }
-#star h2{
-    font-size: 20px;
-    color: aliceblue;
-    padding-left: 60px;
-    padding-right: 60px;
-    line-height: 30px;
+#star h3 {
+  padding-top: 140px;
+  color: aliceblue;
 }
-#img4 img{
-    width: 600px;
-    height: 400px;
+#star h2 {
+  font-size: 20px;
+  color: aliceblue;
+  padding-left: 60px;
+  padding-right: 60px;
+  line-height: 30px;
 }
-#star{
-    background-image: url(./billy-huynh-W8KTS-mhFUE-unsplash.jpg);
-    height: 500px;
-    object-fit: fill;
+#img4 img {
+  width: 600px;
+  height: 400px;
 }
-#img1 h2{
-    padding-top: 20px;
+#star {
+  background-image: url(./billy-huynh-W8KTS-mhFUE-unsplash.jpg);
+  height: 500px;
+  object-fit: fill;
 }
-#img1{
-    background-image: url(./5-57072_guitar-photography-black-and-white.jpg);
-    color: aliceblue;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    height: 600px;
+#img1 h2 {
+  padding-top: 20px;
 }
-.heade a{
-    padding-right: 25px;
-    padding-left: 15px;
-    color: aliceblue;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ,     serif;
-    font-size:20px;
+#img1 {
+  background-image: url(./5-57072_guitar-photography-black-and-white.jpg);
+  color: aliceblue;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 600px;
+  position: relative;
+  top: -34px;
 }
-#pannel{
-    width: 100%;
-    height: 40px;
-    background-color: #353839;
-    padding-top: 4px;
+.heade a {
+  padding-right: 25px;
+  padding-left: 15px;
+  color: aliceblue;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, serif;
+  font-size: 20px;
 }
-.musictext h6{
-    padding-right: 10px;
+#pannel {
+  width: 100%;
+  height: 40px;
+  background-color: #353839;
+  padding-top: 4px;
 }
-.musictext{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    font-size: 30px;
+.musictext h6 {
+  padding-right: 10px;
 }
-.flex_side{
-    font-size: 16px;
-    text-align: left;
+.musictext {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+.flex_side {
+  font-size: 16px;
+  text-align: left;
 }
